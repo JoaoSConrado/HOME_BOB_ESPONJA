@@ -1,0 +1,99 @@
+span {
+    margin-left: 89% ;
+    width: 100px;
+    height: 17px ;
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+}
+
+.GitHub {
+    margin-left: 1% 
+}
+
+.instagram {
+    margin-left: 5%
+}
+
+.Linkedin {
+    margin-left: 3%
+}
+
+.GIF {
+    margin-left: 1%;
+    margin-top: -10px;
+
+}
+
+.GIFfuturo {
+    margin-left: 1%;
+    margin-top: 20px;
+    
+    
+}
+
+.GIFcuriosidade {
+    margin-left: 1%;
+    margin-top: 20px;
+    
+    
+}
+
+.pulse1 {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(0.95);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.95); 
+    }
+  }
+ 
+.GIFfuturo a:hover {
+  animation: pulse 0.5s infinite;
+  margin: 0 auto;
+  display: table;
+  margin-top: 30px;
+  animation-direction: alternate;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.05);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05); 
+  }
+}
